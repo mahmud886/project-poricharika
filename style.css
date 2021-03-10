@@ -1,0 +1,280 @@
+
+
+/* 01 Navbar-Started */
+
+/* 02 Header-Started */
+
+/* 03 AboutUs-Started */
+
+/* 04 AboutUs-Started */
+
+/* 05 Services-Started */
+
+/* 06 Our-Policies-Started */
+
+/* 07 ContactUs-Started */
+
+
+/* Default Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+}
+h1{
+    font-size: 70px;
+}
+
+h2{
+    font-size: 34px;
+    font-weight: 700;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 25px;
+}
+
+
+.default-weight{
+    font-weight: 700px;
+}
+.navbar-logo a{
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.default-color{
+    color: #F14668;
+    
+}
+.default-color2{
+    color: #F14668;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-weight: 500;
+    
+}
+.default-button{
+    background-color: #F14668;
+    color: #fff;
+    border-radius: 10px;
+    margin: 0;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px 60px;
+    border: none;
+   
+}
+.default-button2{
+    background-color: #F14668;
+    color: #fff;
+    border-radius: 10px;
+    margin: 0;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px 60px;
+    border: none;
+   
+}
+.default-button3{
+    background-color: #F14668;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 20px;
+    border: none;
+   
+}
+
+
+/* 01 Navbar-Started */
+
+.navbar-search-icon a{
+    color: #F14668;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.navbar-language a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #F14668;
+    margin-right: 40px;
+    
+}
+/* 01 Navbar-Ends */
+
+
+
+
+/* 02 Header-Started */
+.navbar-bg-color{
+    background-color: #fff;
+}
+.header-single-content{
+    padding-top: 150px;
+    color: #707070;
+}
+.header-single-content h1{
+    font-weight: 700;
+}
+.header-single-content h3{
+    font-weight: 500;
+}
+.header-single-content p{
+    font-weight: 400;
+}
+.header-banner{
+    background-image: url('/images/banner/banner.png');
+    width: 100%;
+    height: 80vh;
+    background-attachment: fixed;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 02 Header-Ends */
+
+
+
+
+/* 03 AboutUs-Started */
+/* 03 AboutUs-Ends */
+
+
+
+
+/* 04 Services-Started */
+.single-service-items{
+    padding: 50px 0;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(241, 70, 104, 1);
+}
+.services-single-items-content a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #F14668;
+}
+.services-main-div img{
+    width: 100px;
+    height: 100px;
+}
+
+/* 04 Services-Ends */
+
+
+
+.term-condition-list{
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(241, 70, 104, 1);
+}
+.term-container{
+    margin-left: 10px;
+    list-style-type: disc;
+    color: #F14668;
+    
+}
+.term-container li{
+    font-size: 20px;
+}
+.term-container li p{
+    color: #585858;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+
+
+/* Contact */
+
+
+.contact-started{
+    background-image: url('/images/map.png');
+    width: 100%;
+    height: 70vh;
+    background-position: cover cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-contents h2{
+    color:#F14668 !important;
+    font-size: 50px;
+}
+.contact-contents p{
+    color: #fff !important;
+    font-size: 20px;
+}
+
+.form-container{
+    background:#fff;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(241, 70, 104, 1);
+}
+
+.contact-down-content{
+    padding-top: 333px;
+}
+
+.form-container h3{
+    font-size: 35px;
+    color: #565656;
+    
+}
+.form-container p{
+    font-size: 15px;
+    color: #565656;
+    margin: 0;
+}
+.form-group{
+    padding: 10px 10px;
+    color: #565656;
+    font-weight: bold;
+}
+.form-contents{
+    margin:0 90px;
+}
+.form-container-inner {
+    margin: 0 80px;
+}
+
+
+
+
+.margin-left{
+    margin: 30px;
+}
+
+
+/* Footer-Start */
+.footer-start{
+    background-color: #F14668;
+    padding: 60px 0;
+    color: #fff;
+}
+.address-content p{
+    font-size: 15px;
+    margin: 0;
+}
+.social-nav{
+    list-style-type: none;
+    
+}
+.social-nav li{
+    padding-left: 0 !important;
+    padding-right: 10px;
+    margin-left: 0 0 0 0 !important;
+}
+
+/* Footer-Ends */
